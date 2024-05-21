@@ -1,7 +1,7 @@
 # Anomaly Detection for Turbine Engine Data
 
 ## Overview
-This project focuses on detecting anomalies in turbine engine sensor data using two different machine learning approaches: an Autoencoder and an Isolation Forest. The project involves pre-processing sensor data, training anomaly detection models, and evaluating their performance.
+This project focuses on detecting anomalies in turbine engine sensor data using two different machine-learning approaches: an Autoencoder and an Isolation Forest. The project involves pre-processing sensor data, training anomaly detection models, and evaluating their performance.
 
 ## Features
 - Data pre-processing and scaling.
@@ -10,6 +10,21 @@ This project focuses on detecting anomalies in turbine engine sensor data using 
 - Calculating reconstruction errors for the Autoencoder model.
 - Identifying and visualizing anomalies.
 - Evaluation metrics for model performance.
+
+## Table of Contents
+1. [Requirements](#requirements)
+2. [Setup](#setup)
+   - [Install the required libraries](#install-the-required-libraries)
+   - [Data Files](#data-files)
+3. [Project Structure](#project-structure)
+4. [Usage](#usage)
+   - [Loading and Pre-processing Data](#loading-and-pre-processing-data)
+   - [Autoencoder Model](#autoencoder-model)
+   - [Isolation Forest Model](#isolation-forest-model)
+   - [Visualization and Evaluation](#visualization-and-evaluation)
+5. [Results](#results)
+6. [Contributions](#contributions)
+7. [License](#license)
 
 ## Requirements
 - Python 3.9
